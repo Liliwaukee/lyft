@@ -1,3 +1,4 @@
+/*ESTILOS GENERALES*/
 * {
   padding: 0;
   margin: 0;
@@ -33,14 +34,13 @@ body {
   clear: left;
 }
 
-/**/
-
 /*MENÚ DE NAVEGACIÓN*/
 nav {
   padding: 20px 80px;
   margin-bottom: 78px;
 }
 
+/*estilos del logo*/
 .logo {
   width: 60%;
   float: left;
@@ -51,6 +51,7 @@ nav {
   width: 9%;
 }
 
+/*estilos del menú-texto*/
 .menu {
   width: 40%;
   float: left;
@@ -85,12 +86,7 @@ nav {
   letter-spacing: -2px;
 }
 
-.subtitle {
-  letter-spacing: -1px;
-  padding: 10px 0 30px 0;
-  font-weight: 500;
-}
-
+/*estilos del input*/
 .sign-up input[type=text] {
   outline: none;
   border: none;
@@ -102,6 +98,7 @@ nav {
   margin-bottom: 30px;
 }
 
+/*estilos del botón*/
 .sign-up button {
   background-color: #FF00BF;
   padding: 16px 20px;
@@ -119,6 +116,12 @@ nav {
   font-size: 14px;
 }
 
+.subtitle {
+  letter-spacing: -1px;
+  padding: 10px 0 30px 0;
+  font-weight: 500;
+}
+
 .legal {
   color: #728099;
   font-size: 9px;
@@ -131,11 +134,8 @@ nav {
 }
 
 /*SECCIÓN BENEFITS*/
-
-
 .benefits {
   background: linear-gradient(transparent, #76278C, #76278F, #64308F, #362A66, #2B1E66);
-  /*background: linear-gradient(transparent,#76278f);*/
   width: 100%;
   height: 100vh;
   display: block;
@@ -143,6 +143,7 @@ nav {
   padding-top: 130px;
 }
 
+/*estilos del texto*/
 .text-benefits {
   width: 50%;
   display: inline-block;
@@ -163,6 +164,7 @@ nav {
   line-height: 1.4;
 }
 
+/*estilos de la imagen de celular*/
 .use-image {
   width: 50%;
   display: inline-block;
@@ -180,6 +182,7 @@ nav {
   width: 100%
 }
 
+/*estilos del texto*/
 .text-description {
   width: 33%;
   display: inline-block;
@@ -188,17 +191,18 @@ nav {
   box-sizing: border-box;
 }
 
-.video-description {
-  width: 67%;
-  display: inline-block;
-  float: left;
-}
-
 .title-video {
   font-size: 28px;
   letter-spacing: -2px;
   font-weight: 600;
   padding-bottom: 20px;
+}
+
+/*estilos del video*/
+.video-description {
+  width: 67%;
+  display: inline-block;
+  float: left;
 }
 
 .video-description p {
@@ -214,13 +218,11 @@ footer {
   background-color: #333447;
   box-sizing: border-box;
   width: 100%;
-
 }
 
 .footer-menu {
   padding: 60px 0 0 120px;
 }
-
 
 .column-footer {
   width: 20%;
@@ -256,12 +258,7 @@ hr {
   margin: 20px auto;
 }
 
-.copyright {
-  text-align: center;
-  padding: 26px 0 45px 0;
-  font-size: 14px;
-}
-
+/*estilos de iconos*/
 .icon-facebook:before {
   content: "\ea90";
 }
@@ -293,4 +290,11 @@ hr {
   text-align: center;
   display: inline-block;
   line-height: 32px;
+}
+
+/*estilos de copyright*/
+.copyright {
+  text-align: center;
+  padding: 26px 0 45px 0;
+  font-size: 14px;
 }

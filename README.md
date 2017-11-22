@@ -9,9 +9,9 @@ El reto consiste en replicar el maquetado del sitio de Lyft (https://www.lyft.co
 ##
 El sitio se dividió en 5 secciones
 
-## Nav
-## Section (3)
-## Footer
+# Nav
+# Section (3)
+# Footer
 
 Como elementos externos vamos a necesitar la tipografía Montserrat y los iconos de Iconmoon, ambos los vamos a ligar en la etiqueta <head>.
 
@@ -23,7 +23,6 @@ En esta sección se colocará el mini formulario.
 Al input se le modificarán las propiedades de "border" y se le dará estilo sólo al "border-bottom", además se le quitará la sombra con "box-shadow: none".
 Al <button> se le modifica background-color y el color de la tipografía.
 El texto esta dentro de <p>, ambos contenidos en un <div>.
-
 
 ## Section "Benefits"
 Para esta sección el fondo será una gradación, los valores son: linear-gradient(#76278F, #2B1E66), los cuales se agregará en background de section "benefits".

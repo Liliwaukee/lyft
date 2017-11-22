@@ -176,11 +176,11 @@ nav {
 }
 
 /*SECCION VIDEOS*/
-.text-video {
+.video {
   width: 100%
 }
 
-.un-tercio {
+.text-description {
   width: 33%;
   display: inline-block;
   float: left;
@@ -188,7 +188,7 @@ nav {
   box-sizing: border-box;
 }
 
-.dos-tercios {
+.video-description {
   width: 67%;
   display: inline-block;
   float: left;
@@ -201,7 +201,7 @@ nav {
   padding-bottom: 20px;
 }
 
-.un-tercio p {
+.video-description p {
   font-weight: 500;
   font-size: 15px;
   letter-spacing: -0.5px;

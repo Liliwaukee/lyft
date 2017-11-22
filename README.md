@@ -1,92 +1,42 @@
-# Lyft
+Lyft
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
+Track: Common Core
+Curso: Creando un sitio web interactivo con JavaScript
+Unidad: 1.Maquetado web con HTML & CSS
 
-***
+El reto consiste en replicar el maquetado del sitio de Lyft (https://www.lyft.com/).
 
-Para completar este reto, hemos creado este repositorio boilerplate (plantilla
-inicial) con todos los recursos que necesitas. Esto incluye imágenes y
-estructura de carpetas y archivos donde colocarás tu código.
+##
+El sitio se dividió en 5 secciones
 
-## Flujo de trabajo
+## Nav
+## Section (3)
+## Footer
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
+Como elementos externos vamos a necesitar la tipografía Montserrat y los iconos de Iconmoon, ambos los vamos a ligar en la etiqueta <head>.
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
+## Nav
+Para el menú de navegación se crearon 2 divs de 50% de ancho de la pantalla, con las propiedades "display:inline-block" y "float:left" se colocan de forma horizontal una del lado de otra.
 
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/lyft.git
-   ```
+## Section "Sign-up"
+En esta sección se colocará el mini formulario.
+Al input se le modificarán las propiedades de "border" y se le dará estilo sólo al "border-bottom", además se le quitará la sombra con "box-shadow: none".
+Al <button> se le modifica background-color y el color de la tipografía.
+El texto esta dentro de <p>, ambos contenidos en un <div>.
 
-## Objetivo
 
-El reto consiste en replicar el sitio de **Lyft**, este será el resultado
-a lograr:
+## Section "Benefits"
+Para esta sección el fondo será una gradación, los valores son: linear-gradient(#76278F, #2B1E66), los cuales se agregará en background de section "benefits".
+La sección se dividirá en 2 divs, uno para el texto y otro para la imagen. La imagen ocupará el 75% de su contenedor.
 
-![Lyft Website](docs/fullpage.png)
+## Section "Videos"
+Se seccionará en 3 divs, uno para cada video y su respectivo texto. A su vez cada <div> se subdividirá en 2 divs, el <div> para contener el texto tendrá un ancho de 33% y el <div> para el video será de 67%.
+El video se insertará con un <iframe>, el atributo "height" se aumenta para que sea proporcional con el diseño de la página.
 
-## Consideraciones
-
-* Encontrarás un archivo base `index.html` en el cual deberás escribir la
-  estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
-
-* En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
-  estilos necesarios para tu proyecto:
-
-* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
-  encontrarás todas las imágenes necesarias para completar tu proyecto.
-
-* Deberás **actualizar el archivo `README.md`** explicando el contenido de tu
-  repositorio.
-
-* Esta web utiliza la tipografía `Montserrat`.
-
-* La paleta de colores puedes obtenerla inspeccionado el sitio original, pero
-  para ganar tiempo, puedes usar los siguientes:
-
-  - Botones, hover: `#FF00BF`
-  - Fondo de `footer`: `#333447`
-  - Título del formulario: `#352384`
-  - Texto del formulario: `#728099`
-  - Gradiente morado: `linear-gradient(#76278F, #2B1E66);`
-
-* Para el footer, deberás tomar en cuenta que tiene un hover y se ve como en la
-  siguiente imagen:
-
-  ![Lyft - Footer](docs/footer.gif)
-
-  Además, los íconos deberás obtenerlo de `Icomoon`.
-
-* Para este reto, encontrarás ciertas cosas que probablemente aun no has visto
-  en clase (formularios, videos de Youtube). No te preocupes, estamos seguros
-  que los afrontarás con éxito, de igual forma aquí unos tips:
-
-  - Estos son los videos de Youtube:
-    * https://www.youtube.com/watch?v=fLSmUWOYpKw
-    * https://www.youtube.com/watch?v=V7j8Aqxmbs8
-    * https://www.youtube.com/watch?v=xj2VWLV0xCU
-  - Para agregar los videos, averigua sobre la etiqueta `iframe`.
-  - Para el formulario, revisa las etiquetas como `form` e `input`.
-
-* Puedes ver el [sitio original](https://www.lyft.com/), sin embargo, su diseño
-  ya ha cambiado en ciertas partes, así que tu fuente de verdad es la imagen que
-  muestra el objetivo de este reto.
-
-  > Nota: El sitio original tiene ciertos efectos y funcionalidades que
-están fuera del alcance de este reto. Enfócate en obtener la maquetación
-lo más parecido posible, usando lo aprendido en clase ;)
-
-## A tener en cuenta
-
-Este reto será evaluado sobre lo siguiente:
-
-* Pixel perfect (replicar el diseño con exactitud)
-* Estructura de carpetas y archivos
-* Nombramiento de clases, id, etc
-* Indentación
-* Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible
+## Footer
+El footer se dividirá en 4 columnas, cada columna será un <div>.
+Los 3 primeros bloques son texto, se insertarán en listas <ul> y se les quitará la viñeta con "list-style-type:none".
+La última columna contiene los logos de las tiendas en línea y se manipulará su ancho en css.
+Los iconos de redes sociales se seleccionan en Iconmoon y se descarga la carpeta.
+La linea se inserta con un <hr> y se manipula su width.
+El texto de copyright se mete en una etiqueta <p> y se centra con "text-align:center".

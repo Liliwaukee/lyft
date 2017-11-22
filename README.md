@@ -1,12 +1,13 @@
-Lyft
+# Lyft
 
-Track: Common Core
-Curso: Creando un sitio web interactivo con JavaScript
-Unidad: 1.Maquetado web con HTML & CSS
+* **Track:** _Common Core
+* **Curso:** _Creando un sitio web interactivo con JavaScript
+* **Unidad:** _1.Maquetado web con HTML & CSS
 
 El reto consiste en replicar el maquetado del sitio de Lyft (https://www.lyft.com/).
 
-##
+***
+
 El sitio se dividió en 5 secciones
 
 * Nav
